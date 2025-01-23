@@ -35,7 +35,7 @@ function getThirteenMonthDate(date) {
 
     // Map 13-month month numbers to names
     const thirteenMonthNames = [
-        "Νεοτέλεια", "January", "February", "March", "April", "May", 
+        "January", "February", "March", "Νεοτέλεια", "April", "May", 
         "June", "July", "August", "September", "October", "November", "December"
     ];
     const monthName = thirteenMonthNames[thirteenMonth - 1];
