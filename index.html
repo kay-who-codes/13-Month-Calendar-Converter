@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📅 13 Month Calendar Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Header Bar -->
+    <header class="header-bar">
+        <a href="https://kay-who-codes.github.io/13-Month-Calendar-Converter" class="header-link">📅 13-Month Calendar Converter</a>
+        <div class="dropdown">
+          <button class="dropbtn" onclick="toggleDropdown()">More Apps</button>
+          <div class="dropdown-content" id="dropdownMenu">
+            <a href="https://kay-who-codes.github.io/Cards-Against-Humanity/">⬜ Cards Against Humanity</a>
+            <a href="https://kay-who-codes.github.io/Ultimate-Drinking-Cards">🍻 Ultimate Drinking Cards</a>
+            <a href="https://kay-who-codes.github.io/Kings-Cup/">🍺 Kings Cup</a>
+            <a href="https://kay-who-codes.github.io/Question-Cards/">❓ Question Cards</a>
+            <a href="https://kay-who-codes.github.io/Daily-Comic-Strips/">🗞️ Comic Strips</a>
+            <a href="https://kay-who-codes.github.io/Percentage-Calculators/">➗ Percentage Calculators</a>
+            <a href="https://kay-who-codes.github.io/Drink-Value-Calculator/">🍸 Drink Value Calculator</a>
+            <a href="https://kay-who-codes.github.io/Soundboard/">🔊 Soundboard</a>
+            <a href="https://kay-who-codes.github.io/Greek-Quiz/">🇬🇷 Greek Quiz</a>
+            <a href="https://kay-who-codes.github.io/HTML-Displayer/">👁️ HTML Viewer</a>
+            <a href="https://kay-who-codes.github.io/Calendar-Holiday-Countdown/">📅 Calendar Countdown</a>
+            <a href="https://kay-who-codes.github.io/Skint-Countdown/">⌛ Skint Countdown</a>
+            <a href="https://kay-who-codes.github.io/Song-Inspirator/">🎶 Song Inspirator</a>
+            <a href="https://kay-who-codes.github.io/Advertising-Character-Generator/">👤 Advertising Character Generator</a>   
+            <a href="https://kay-who-codes.github.io/Bible-Completion-Calculator/">✝️ Bible Completion Calculator</a>
+            <a href="https://kay-who-codes.github.io/Random-Bible-Verse/">✝️ Random Bible Verses</a>
+            <a href="https://kay-who-codes.github.io/Random-Numbers/">🔢 Random Number Generator</a>
+            <a href="https://kay-who-codes.github.io/Coinflip/">🪙 Coinflip</a>
+            <a href="https://kay-who-codes.github.io/Game-Point-Tracker/">⚽ Game Point Tracker</a>
+          </div>
+        </div>
+      </header>
+
+    <div class="container">
+        <div class="date-display">
+            <h1>13-Month Calendar Converter</h1>
+            <p id="gregorian-date">Today's Date: Loading...</p>
+            <p id="thirteen-month-date">13 Month Date: Loading...</p>
+
+            <!-- Add Date Picker -->
+            <label class="date-picker" for="date-picker">Select a Date:</label>
+            <input type="date" id="date-picker">
+        </div>
+
+        <!-- Explanation of the 13-month calendar -->
+        <div class="calendar-explanation">
+            <h2>How the 13-Month, 28-Day Calendar Works</h2>
+            <p>
+                The 13-month calendar divides the year into 13 months, each containing exactly 28 days (4 weeks).
+                This gives a total of 364 days, leaving 1 extra day (or 2 in a leap year) to be added as a "leap day" or
+                an extra holiday at the end of the year.
+            </p>
+        </div>
+
+        <!-- 13-Month Calendar Table -->
+        <div class="calendar-table">
+            <h2>13-Month Calendar Dates</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                        <th>Sun</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <footer>
+            <p>
+                Made by 
+                <a href="https://linktr.ee/kaywhocreates" class="footer-link" target="_blank" rel="noopener noreferrer">
+                Kay 🧡
+                </a>
+            </p>
+            </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
