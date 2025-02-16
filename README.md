@@ -2,6 +2,8 @@
 
 The **13-Month Calendar Converter** is a browser-based tool for converting standard 12-month Gregorian calendar dates into a 13-month calendar format and vice versa.
 
+[![App Image](Non-App/App%20Image.png)](https://kay-who-codes.github.io/13-Month-Calendar-Converter/)
+
 ## Features
 
 - Convert dates from the 12-month Gregorian calendar to a 13-month calendar format.
