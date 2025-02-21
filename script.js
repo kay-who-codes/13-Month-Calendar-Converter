@@ -1,18 +1,3 @@
-// HEADER BAR
-
-// Toggle dropdown visibility
-function toggleDropdown() {
-    const dropdown = document.querySelector('.dropdown');
-    dropdown.classList.toggle('show');
-  }
-  
-  // Close dropdown when clicking outside
-  window.addEventListener('click', (event) => {
-    const dropdown = document.querySelector('.dropdown');
-    if (!dropdown.contains(event.target)) {
-      dropdown.classList.remove('show');
-    }
-  });
 
 function getThirteenMonthDate(date) {
     // Check if the date is December 31
@@ -30,7 +15,7 @@ function getThirteenMonthDate(date) {
 
     // Correct weekday calculation: 13-month calendar always starts on a Monday
     const daysSinceStart = (dayOfYear - 1) % 7; // Days since the start of the year in 13-month calendar
-    const weekdayNames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+    const weekdayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     const weekDay = weekdayNames[daysSinceStart];
 
     // Map 13-month month numbers to names
